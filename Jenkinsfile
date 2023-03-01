@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Log directory') {
       steps {
         sh 'ls -la'
       }
